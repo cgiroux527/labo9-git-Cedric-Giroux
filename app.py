@@ -6,7 +6,7 @@ def afficher_message():
         message.config(text=texte)
 
 fenetre = tk.Tk()
-fenetre.title("Carnet de messages")
+fenetre.title("Carnet de classe")
 fenetre.geometry("380x220")
 
 message = tk.Label(fenetre, text="Bonjour Git !", font=("Arial", 18))
